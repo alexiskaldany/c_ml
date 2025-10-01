@@ -59,3 +59,13 @@ curl -X POST http://localhost:8080/linear-regression \
 - Linear regression calculation (slope, intercept, R²)
 - JSON request/response format
 - Minimal dependencies (C++ standard library only)
+
+## Testing
+
+A test script is provided to verify functionality:
+
+```bash
+./test_server.sh
+```
+
+This will run several test cases including perfect linear data, noisy data, negative values, and error conditions.
